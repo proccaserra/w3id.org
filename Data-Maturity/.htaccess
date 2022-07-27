@@ -9,9 +9,11 @@ RewriteRule ^$   https://fairplus.github.io/Data-Maturity/ [R=303,L]
 
 # Identifiers
 # ------------------
-# In the following block: define individual identifiers for indicators, of the form https://w3id.org/Data-Maturity/dsmxxx
-# The order is based on the level and indicator numebr.
-# Structure them based on the level they belong to for better human-readability.
+# In the following block: define individual identifiers for indicators, of the form `dsm\d{2}[rch]`
+# F or better human-readability, the order is based on the ascending maturity levels and.
+# within a level, by ascending indicator number and domain [representation (r), content (c),
+# hosting (h)].
+# 
 #
 
 # Level 0
